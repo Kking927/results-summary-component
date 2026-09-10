@@ -2,7 +2,7 @@
 
 :root {
   /* Colors */
-  
+
   /* Primary */
   --light-red: hsl(0, 100%, 67%);
   --orangey-yellow: hsl(39, 100%, 56%);
@@ -35,7 +35,7 @@
   ); /* 50% opacity of dark gray blue for muted scores */
 
   /* Typography */
-  
+
   /* Fonts */
   --font-family: "Hanken Grotesk", sans-serif;
 
@@ -46,12 +46,14 @@
     0.8vw + 0.85rem,
     1.25rem
   ); /* "Your Result" and "Summary" headings */
+
   --fs-result-score: clamp(
     2.5rem,
     3.5vw + 1.25rem,
     4rem
   ); /* Large 76 score number */
   --fs-heading-lg: clamp(1.125rem, 1.2vw + 0.9rem, 1.75rem); /* "Great" title */
+  
   --fs-text-sm: clamp(
     0.8rem,
     0.2vw + 0.75rem,
