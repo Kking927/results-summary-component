@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Results Summary Component</title>
+  </head>
+
+  <body>
+    <main class="result-card">
+      <section class="result-card__top">
+        <h1 class="result-card__title">Your Result</h1>
+
+        <div class="result-card__score-box">
+          <span class="result-card__score-number">76</span>
+          <span class="result-card__score-max">of 100</span>
+        </div>
+
+        <div class="result-card__grade-container">
+          <h2 class="result-card__grade">Great</h2>
+          <p class="result-card__description">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+      </section>
+
+      <section class="result-card__bottom">
+        <h2 class="result-card__summary-title">Summary</h2>
+
+        <ul class="result-card__list">
+          <!-- Populated dynamically via JavaScript -->
+        </ul>
+
+        <button type="button" class="result-card__button">Continue</button>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
