@@ -192,7 +192,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: clamp(1rem, 1.2vw + 0.9rem, 1.75rem);
+  gap: clamp(1rem, 1.4vw + 0.75rem, 2rem);
 }
 
 .result-card__summary-title {
@@ -211,7 +211,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: clamp(0.75rem, 0.3vw + 0.65rem, 0.875rem);
+  padding: clamp(0.75rem, 0.4vw + 0.65rem, 1rem);
   border-radius: 0.75rem;
   width: 100%;
 }
