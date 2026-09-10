@@ -57,10 +57,8 @@
   --fs-heading-lg: clamp(1.5rem, 1.5vw + 1.1rem, 2rem); /* "Great" title */
 
   --fs-text-sm: clamp(
-    0.9375rem,
-    0.3vw + 0.85rem,
-    1.0625rem
-  ); /* Description text & "of 100" */
+      1rem, 0.35vw + 0.9rem, 1.125rem
+    ); /* Description text & "of 100" */
 
   /* Font Weights */
   --fw-medium: 500;
@@ -113,7 +111,6 @@ body {
 
 .result-card__top,
 .result-card__bottom {
-  /* clamp(minimum, preferred, maximum) */
   padding: clamp(1.5rem, 3vw, 1.75rem);
 }
 
@@ -292,7 +289,7 @@ body {
   .result-card__top,
   .result-card__bottom {
     flex: 1;
-    padding: clamp(2rem, 2.5vw + 1rem, 3rem);
+    padding: clamp(1.5rem, 1.8vw + 0.65rem, 2.25rem);
   }
 
   .result-card__top {
