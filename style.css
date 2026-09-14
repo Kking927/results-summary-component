@@ -259,7 +259,7 @@ body {
   border-radius: 3rem;
   font-size: var(--fs-body);
   cursor: pointer;
-  margin-block-start: auto;
+  margin-block-start: clamp(0.25rem, 0.5vw + 0.15rem, 0.5rem);
 }
 
 .result-card__button:hover {
